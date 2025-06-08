@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Pathway+Extreme:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@100&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/00a45203f1.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+</head>
+</head>
+<body>
+<section>
+
+<!--<div style="text-align: center;" class="divESProgr">
+    <h1 class="ErikaSteba">Mana digitālā pieredze mācoties Latvijas Universitātē</h1>
+    <hr style="width: 250px;">
+    <h3 class="Programmer">Spied uz leju:</h3>
+</div>-->
+
+<div  class="divtext" style="text-align: center;">
+<!--    <p class="ptext">Hi! My name is Erika Steba, and I am a Computer Science student from Latvia.
+        This page is a portfolio of some pet-projects I've done.
+    </p>-->
+    <button onclick="toggleTheme()" id="themeToggleBtn">
+        🌗 Toggle Theme
+    </button>
+
+
+
+    <div class="hero-overlay">
+        <div class="hero-text">
+            <h1 class="ErikaSteba">Mana digitālā pieredze mācoties Latvijas Universitātē</h1>
+            <hr style="width: 250px;">
+            <h2 class="ptext">Šī lapa ir apraksts par to, kādi instrumenti palīdz man veikt uzdevumus un pildīt mājasdarbus mācoties par datoriķi.</h2>
+            <h3 class="Programmer">Spied uz leju:</h3>
+
+            <a href="#projects"><i class="fa-sharp fa-solid fa-chevron-down" style="margin-top:50px;margin-bottom:50px;"></i></a>
+
+        </div>
+    </div>
+
+</div>
+</section>
+
+<hr class='vr' width="1" size="500" style="0 auto" />
+<section id="projects">
+
+    <div class="divlightpurple">
+        <h1>Koda rīki</h1>
+        <hr style="margin-top:0;margin-bottom:0;" class="p">
+        <h3>IntelliJ, Clion, PyCharm</h3>
+        <a href="planningsystem.html" target="_blank" style="text-decoration: none; color:white;"><button class="projectbtnP">See</button></a>
+    </div>
+
+    <div class="divlightpurple">
+        <h1>Versiju kontoles rīki</h1>
+        <hr style="margin-top:0;margin-bottom:0;" class="g">
+        <h3>GIT, GitHub, GitLab</h3>
+        <a href="crackthelock.html" target="_blank" style="text-decoration: none; color:white;"><button class="projectbtnG">See</button></a>
+    </div>
+
+<div class="divlightpurple">
+    <h1>Komunikācijas rīki</h1>
+    <hr style="margin-top:0;margin-bottom:0;" class="p">
+    <h3>Teams, Discord, e-studijas</h3>
+    <a href="it_articles_website.html" target="_blank" style="text-decoration: none; color:white;"><button class="projectbtnP">See</button></a>
+</div>
+
+<div class="divlightpurple">
+    <h1>Dizaina rīki</h1>
+    <hr style="margin-top:0;margin-bottom:0;" class="g">
+    <h3>Canva, Figma, Potoshop</h3>
+    <a href="password_manager.html" target="_blank" style="text-decoration: none; color:white;"><button class="projectbtnG">See</button></a>
+</div>
+
+<div class="divlightpurple">
+    <h1>Izstrādes vides rīki</h1>
+    <hr style="margin-top:0;margin-bottom:0;" class="p">
+    <h3>Virtual Box, VMware, Postman</h3>
+    <a href="beauty_salon.html" target="_blank" style="text-decoration: none; color:white;"><button class="projectbtnP" class="p">See</button></a>
+</div>
+<!--
+<div class="divlightpurple">
+    <h1>Beauty salon website 2.0</h1>
+    <hr style="margin-top:0;margin-bottom:0;" class="g">
+    <h3>HTML, CSS, Bootstrap, JavaScript, JQuery</h3>
+    <button class="projectbtnG">See</button>
+</div>
+-->
+
+</section>
+
+<!--<footer class="contact-footer">
+    <h4>Here are some of my contacts:</h4>
+    <hr style="margin-left: 300px; width:25%">
+    <div class="contact-icon1">
+        <i class="fa-solid fa-envelope"></i>
+        <a href = "mailto: erikasteba@gmail.com"><p>erikasteba@gmail.com</p></a>
+    </div>
+    <div class="contact-icon2">
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/erika-steba-881a8a254/"><p>https://www.linkedin.com/in/erika-steba-881a8a254/</p></a>
+    </div>
+</footer>-->
+
+</body>
+</html>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle("light-theme");
+    }
+</script>
