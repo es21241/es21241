@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Pathway+Extreme:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@100&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/00a45203f1.js" crossorigin="anonymous"></script>
+
+    <title>Izstrādes vides rīki</title>
+</head>
+<body>
+
+<a href="#project_title" id="myBtn"><i class="fa-solid fa-chevron-up" style="color: #eec1fb;"></i></a>
+<section id="project_title">
+    <a href="index.html" style="color: #bd90ff; font-size: 20px;margin-left: 30px;"  class="p">Back</a>
+
+    <div style="text-align: center;" class="divESProgr">
+        <h1 class="ErikaSteba2">Izstrādes vides rīki</h1>
+        <hr style="width: 500px;width:540px;" class="p">
+
+        <h3 class="Programmer" style="color: #49dcc2;">Virtual Box, Linux, Postman</h3>
+
+    </div>
+</section>
+<section style="margin-top: 150px;">
+
+
+    <div  class="" style="text-align: center; width:90%;  margin-left: auto;margin-right: auto;"><div class="content-block">
+        <button onclick="toggleTheme()" id="themeToggleBtn">
+            🌗 Toggle Theme
+        </button>
+
+        <div class="text">
+            <h1>Linux</h1>
+            <p>
+                Linux ir atvērtā koda operētājsistēma, ko bieži izmanto programmēšanā, serveru administrēšanā un drošības testos. Universitātē mēs izmantojam Linux, lai apgūtu komandrindas darbu, failu struktūru, lietotāju pārvaldību un skriptu veidošanu. Es strādāju gan ar Ubuntu, gan ar Kali Linux virtuālajās mašīnās, izmantojot tādus rīkus kā bash, vim, chmod, gcc, kā arī izmēģinot tīkla konfigurācijas un servera uzstādījumus. Linux man palīdz labāk izprast sistēmas līmeņa darbību un kļūst par svarīgu ikdienas darba daļu programmētāja ceļā. Linux ir Windows alternatīva.          </p>
+        </div>
+        <div class="image">
+            <img src="images/linux.png" alt="Planner overview">
+        </div>
+    </div>
+
+        <div class="content-block reverse">
+            <div class="text">
+                <h1>Virtual Box</h1>
+                <p>
+                    VirtualBox ļauj palaist virtuālās mašīnas. Es to izmantoju, lai testētu dažādas operētājsistēmas, mācītos Linux un veiktu drošības eksperimentus izolētā vidē. Piemēram kursā Object Oriented Programming mēs izmantojām VirtualBox, lai palaistu Ubuntu, jo tas ir daudz vieglāk nekā uzstādīt to uz sava datora.
+                </p>
+            </div>
+            <div class="image">
+                <img src="images/vm.png" alt="Validation example">
+            </div>
+        </div>
+
+        <div class="content-block">
+
+            <div class="text"><h1>Postman</h1>
+                <p>
+                    Postman ir rīks API testēšanai. Programmēšanas kursos es to izmantoju, lai sūtītu HTTP pieprasījumus, analizētu atbildes un saprastu, kā strādā servera un klienta mijiedarbība. To izmantojām backend izstrādē priekš dažādam mājaslapam.
+                </p>
+            </div>
+            <div class="image">
+                <img src="images/postman.png" alt="Tooltip banner">
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+</section>
+
+
+
+<footer class="contact-footer">
+    <h4>Here are some of my contacts:</h4>
+    <hr style="margin-left: 300px; width:25%">
+    <div class="contact-icon1">
+        <i class="fa-solid fa-envelope"></i>
+        <a href = "mailto: erikasteba@gmail.com"><p>erikasteba@gmail.com</p></a>
+    </div>
+    <div class="contact-icon2">
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/erika-steba-881a8a254/"><p>https://www.linkedin.com/in/erika-steba-881a8a254/</p></a>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle("light-theme");
+    }
+</script>
